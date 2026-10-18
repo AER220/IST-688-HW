@@ -8,8 +8,8 @@ hw1 = st.Page("HW/HW1.py", title="HW 1", icon="1️⃣")
 hw2 = st.Page("HW/HW2.py", title="HW 2", icon="2️⃣")
 hw3 = st.Page("HW/HW3.py", title="HW 3", icon="3️⃣")
 hw4 = st.Page("HW/HW4.py", title="HW 4", icon="4️⃣")
-hw5 = st.Page("HW/HW5.py", title="HW 5", icon="5️⃣", default=True)
-
+hw5 = st.Page("HW/HW5.py", title="HW 5", icon="5️⃣")
+hw7 = st.Page("HW/HW7.py", title="HW 7", icon="7️⃣", default=True)
 # build the navigation and run whichever page is selected
-pg = st.navigation([hw1, hw2, hw3, hw4, hw5])
+pg = st.navigation([hw1, hw2, hw3, hw4, hw5, hw7])
 pg.run()
